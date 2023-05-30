@@ -8,7 +8,7 @@
 * testImplementation 'com.codeborne:selenide:6.14.1'
 * testImplementation 'io.rest-assured:rest-assured:5.3.0'
 * testImplementation 'org.jsoup:jsoup:1.15.3' на всякий случай
-### Проходим авторизацию в проекте это класс Authorization.java
+### Проходим авторизацию в проекте это класс authorization.Authorization.java
 
 ### Также получим токен либо иные данные, что бы авторизоваться в системе
 Step
@@ -29,4 +29,4 @@ Step
 14. Время жизни `Cookies` во вкладке `Cookies/Expires`
 15. Дня наших задач нам нужна `csrftoken` и `sessionid`
 
-### Где можно ошибится показано в классе AuthorizationNoWork.java
+### Вот и готово все в authorization.Authorization.java
